@@ -1,0 +1,63 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    
+    .presentation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        h3 {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #212121;
+        }
+        
+        strong {
+            color: red;
+            padding-left: 2%;
+        }
+    }
+    
+    p {
+        line-height: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .detail {
+            width: 150px;
+            padding: 10px;
+            font-size: 12px;
+            border: none;
+            border-radius: 5px;
+            background: #08a04d;
+            color: #fff;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+        }
+        
+        .delete {
+            width: 150px;
+            padding: 10px;
+            font-size: 12px;
+            border: none;
+            border-radius: 5px;
+            background: #a00808;
+            color: #fff;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+        }
+    }
+}
