@@ -1,1 +1,1 @@
-## Sort and Search.
+## Pagination and Search.
